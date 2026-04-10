@@ -1,0 +1,20 @@
+{
+  "horynize": {
+    "name": "HORYNIZE",
+    "price_url": "https://horynize.nt-rt.ru/price",
+    "manufacturer_url": "https://horynize-official.ru",
+    "selectors_profile": "nt_rt_default"
+  },
+  "sos112": {
+    "name": "SOS112",
+    "price_url": "https://sos112.nt-rt.ru/price",
+    "manufacturer_url": "https://sos112.ru",
+    "selectors_profile": "nt_rt_default"
+  },
+  "pal-es": {
+    "name": "PAL-ES",
+    "price_url": "https://pal-es.nt-rt.ru/price",
+    "manufacturer_url": "https://pal-es.com",
+    "selectors_profile": "nt_rt_default"
+  }
+}

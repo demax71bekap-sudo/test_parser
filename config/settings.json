@@ -1,0 +1,31 @@
+{
+  "http": {
+    "timeout": 30,
+    "delay_min": 2,
+    "delay_max": 5,
+    "max_retries": 3,
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    ]
+  },
+  "export": {
+    "excel": {
+      "sheet_name": "Товары",
+      "freeze_panes": "A2",
+      "auto_filter": true
+    }
+  },
+  "paths": {
+    "data_dir": "data",
+    "images_dir": "data/images",
+    "output_dir": "data/output",
+    "logs_dir": "logs"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "parser.log",
+    "error_file": "errors.log"
+  }
+}

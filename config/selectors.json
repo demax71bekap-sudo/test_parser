@@ -1,0 +1,21 @@
+{
+  "nt_rt_default": {
+    "price_page": {
+      "container": "div.price__body",
+      "table": "table",
+      "category_row": "tr.highlight",
+      "product_row": "tr:not(.highlight)",
+      "article": "td:nth-child(1)",
+      "name_link": "td:nth-child(2) a",
+      "price": "td:nth-child(4)"
+    },
+    "product_page": {
+      "description": "div.product-description, div.description, div.content",
+      "specs_table": "table.specs, table.characteristics, table.params",
+      "spec_row": "tr",
+      "spec_key": "td:first-child, th:first-child",
+      "spec_value": "td:last-child, th:last-child",
+      "main_image": "img.product-main, img.main-image, div.gallery img:first-child"
+    }
+  }
+}
